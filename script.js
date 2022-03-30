@@ -1,0 +1,42 @@
+const quizData = [
+  {
+    question: "How old is Gerald?",
+    a: "17",
+    b: "20",
+    c: "23",
+    d: "25",
+    correct: "c",
+  },
+  {
+    question: "What is the most used programming language in 2022 ",
+    a: "JavaScript",
+    b: "Python",
+    c: "C",
+    d: "Java",
+    correct: "d",
+  },
+  {
+    question: "What is the name of the richest man on earth in 2022 ",
+    a: "Elon Musk",
+    b: "Bill Gates",
+    c: "Jeff Bezos",
+    d: "Bernard Arnault",
+    correct: "a",
+  },
+  {
+    question: "Which country is the biggest in the world",
+    a: "China",
+    b: "Canada",
+    c: "Russia",
+    d: "United States",
+    correct: "c",
+  },
+  {
+    question: "What is the tallest mountain in the world",
+    a: "K2",
+    b: "Everesst",
+    c: "Makalu",
+    d: "Lhotse",
+    correct: "b",
+  },
+];
