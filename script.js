@@ -71,5 +71,6 @@ submitButton.addEventListener("click", () => {
   if (currentQuiz < quizData.length) {
     loadQuiz();
   } else {
+    alert("congrats, you have completed the first part of this app.");
   }
 });
