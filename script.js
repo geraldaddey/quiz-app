@@ -78,7 +78,7 @@ function getSelected() {
 
   return answer;
 }
-
+// Set the value of all radio buttons to be false (not selected)
 function deselectAnswers() {
   answerEls.forEach((answerEl) => {
     answerEl.checked = false;
@@ -89,16 +89,19 @@ submitBtn.addEventListener("click", () => {
   // check to see the answer
   const answer = getSelected();
 
+  // Increase the score count if selection matches the correct answer
   if (answer) {
     if (answer === quizData[currentQuiz].correct) {
       score++;
     }
 
+    // Move to next question in the quizData array a question has been answered
+
     currentQuiz++;
     if (currentQuiz < quizData.length) {
       loadQuiz();
     } else {
-      // alert("Quiz completed");
+      // Display a text with score count out of total scores with a button to refresh the page
       quiz.innerHTML = `
                 <h2 style = "padding: 1rem; text-align: center;"> You answered ${score}/${quizData.length} questions correctly.</h2>
                 
