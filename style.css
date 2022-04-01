@@ -16,6 +16,11 @@ body {
   align-items: center;
 }
 
+.quiz-app {
+  color: #c0392b;
+  text-shadow: 1px 1px 1px #0a0302;
+}
+
 .quiz-container {
   background-color: white;
   align-items: center;
